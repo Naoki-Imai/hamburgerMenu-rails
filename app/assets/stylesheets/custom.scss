@@ -1,0 +1,20 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.wrap {
+  position: relative;
+  .icon_link_tab {
+    position: absolute;
+    top: 0;
+    right: -300px;
+    transition: 0.3s ease-out;
+  }
+}
+li {
+  list-style: none;
+}
+.wrap .icon_link_tab.open {
+  right: 0;
+  transition: 0.3s ease-out;
+}
+
